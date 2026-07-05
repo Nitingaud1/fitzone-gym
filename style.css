@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("https://images.unsplash.com/photo-1517838277536-f5f99be501cd?w=1600");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.card{
+
+    transition:.4s;
+    border:none;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+section{
+
+    padding-top:70px;
+
+}
+
+img{
+
+    border-radius:10px;
+
+}
